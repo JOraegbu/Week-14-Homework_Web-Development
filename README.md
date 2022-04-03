@@ -349,6 +349,7 @@ Create two new users: Amanda and Ryan.
 For these "baselining" steps, you'll want to log into two different types of accounts to see how the WordPress site looks at the `localhost:8080/wp-admin/users.php` page.  We want to see how the Users page looks from the perspective of an administrator, vs. a regular user.
 
 1. Using your browser, log into your WordPress site as your sysadmin account and navigate to `localhost:8080/wp-admin/users.php`, where we previously created the user Ryan. Examine this page briefly. Log out.
+- ![image](https://user-images.githubusercontent.com/102389320/161452687-7f372659-5a94-4efd-bb89-7b015b6814d1.png)
 
 2. Using your browser, log into your Ryan account and attempt to navigate to `localhost:8080/wp-admin/index.php`. Note the wording on your Dashboard.
 
