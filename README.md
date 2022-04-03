@@ -378,7 +378,8 @@ Navigate to `~/Documents` in a terminal to save your cookies.
 - curl -L -D ryan_cookie.txt -d "log=Ryan&pwd=123456&ryan_cookie=1&rememberme=forever" --cookie-jar ./ryancookies.txt http://localhost:8080/wp-login.php
 
 3. Read the contents of the `ryancookies.txt` file.
-- 
+- ![image](https://user-images.githubusercontent.com/102389320/161453468-7be86224-eaa3-4fd1-b572-7d4e460c3fe8.png)
+
 
    - **Question:** How many items exist in this file?
 
