@@ -316,7 +316,7 @@ Create two new users: Amanda and Ryan.
 
     - Username: `Amanda`
     - Email: `amanda@email.com`
-    - https://github.com/JOraegbu/Week-14-Homework_Web-Development/blob/Cybersecurity_2022/Images/Adding_Amanda_in_Wordpress.png
+    - 
 
 4. Skip down to password:
 
