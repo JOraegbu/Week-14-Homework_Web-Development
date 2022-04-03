@@ -18,7 +18,7 @@ Before you work through the questions below, please create a new file and record
 Answer the following questions about the HTTP request and response process.
 
 1. What type of architecture does the HTTP request and response process occur in?
-    -- Client/Server Architecture
+    ## Client/Server Architecture
 
 2. What are the different parts of an HTTP request? 
     -- Request Line
