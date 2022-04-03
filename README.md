@@ -367,9 +367,11 @@ Navigate to `~/Documents` in a terminal to save your cookies.
 1. Construct a `curl` request that enters two forms: `"log={username}"` and `"pwd={password}"` and goes to `http://localhost:8080/wp-login.php`. Enter Ryan's credentials where there are placeholders.
 
 - curl -L -D ryan_cookie.txt -d "log=Ryan&pwd=123456&ryan_cookie=1&rememberme=forever" http://localhost:8080/wp-login.php
-- 
+- ![image](https://user-images.githubusercontent.com/102389320/161453208-44f89d98-1519-4012-8d69-a07a1147777c.png)
+
 
     - **Question:** Did you see any obvious confirmation of a login? (Y/N)
+    - YES
 
 2. Construct the same `curl` request, but this time add the option and path to save your cookie: `--cookie-jar ./ryancookies.txt`. This option tells `curl` to save the cookies to the `ryancookies.txt` text file.
 
