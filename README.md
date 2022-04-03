@@ -330,6 +330,8 @@ Create two new users: Amanda and Ryan.
 
     - Username: `Ryan`
     - Email: `ryan@email.com`
+    - ![image](https://user-images.githubusercontent.com/102389320/161452228-fae4bca1-0ec0-4376-b521-f126ca3edf35.png)
+
 
 6. Skip down to password:
 
