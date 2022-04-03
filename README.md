@@ -382,6 +382,7 @@ Navigate to `~/Documents` in a terminal to save your cookies.
 
 
    - **Question:** How many items exist in this file?
+   - There are three items in the file (They all start with Ryan%-----------)
 
 Note that each one of these is a cookie that was granted to Ryan after logging in.
 
@@ -389,11 +390,17 @@ Note that each one of these is a cookie that was granted to Ryan after logging i
 
 1. Craft a new `curl` command that now uses the `--cookie` option, followed by the path to your cookies file. For the URL, use `http://localhost:8080/wp-admin/index.php`.
 
+- curl -L --cookie ryan_cookie.txt http://localhost:8080/wp-admin/index.php
+
    - **Question:** Is it obvious that we can access the Dashboard? (Y/N)
+   - No
 
 2. Press the up arrow on your keyboard to run the same command, but this time, pipe `| grep Dashboard` to the end of your command to return all instances of the word `Dashboard` on the page.
 
+- curl -L --cookie ryan_cookie.txt http://localhost:8080/wp-admin/index.php | grep Dashboard
+
     - **Question:**  Look through the output where `Dashboard` is highlighted. Does any of the wording on this page seem familiar? (Y/N) If so, you should be successfully logged in to your Editor's dashboard.
+    - 
 
 #### Step 5: Test the Users.php Page
 
