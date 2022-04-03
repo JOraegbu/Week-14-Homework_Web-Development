@@ -30,12 +30,12 @@ Answer the following questions about the HTTP request and response process.
 
 4. What are the three parts of an HTTP response?
     - Response Status Code
-    -  Response Headers
-    -  Response Body
+    - Response Headers
+    - Response Body
 
 5. Which number class of status codes represents errors?
     - 400 Codes:- signifies Client errors
-    -  500 Codes:- signifies Server errors
+    - 500 Codes:- signifies Server errors
 
 6. What are the two most common request methods that a security professional will encounter?
     - POST and GET requests
@@ -90,7 +90,7 @@ Answer the following questions about sessions and cookies:
     Content-type: text/html
     Set-Cookie: cart=Bob
     ```
-    # Answer:
+    - Answer:
     - Set-Cookies:
     - HTTP/1.1 200 OK
     - Content-type: text/html
@@ -104,8 +104,8 @@ Answer the following questions about sessions and cookies:
     Host: www.example.org
     Cookie: cart=Bob
 
-    Answer:
-    Cookie: cart=Bob will continue the client's session
+    - Answer:
+    - Cookie: cart=Bob will continue the client's session
 
 #### Example HTTP Requests and Responses
 
@@ -127,16 +127,16 @@ username=Barbara&password=password
 ```
 
 17. What is the request method?
-    --- POST
+    - POST
 
 18. Which header expresses the client's preference for an encrypted response?
-    --- Upgrade-Insecure-Requests: 1
+    - Upgrade-Insecure-Requests: 1
 
 19. Does the request have a user session associated with it?
-    --- No, not yet established
+    - No, not yet established
 
 20. What kind of data is being sent from this request body?
-    --- Login Credentials  (username=Barbara&password=password)
+    - Login Credentials  (username=Barbara&password=password)
 
 **HTTP Response**
 
@@ -158,53 +158,53 @@ X-XSS-Protection: 1; mode=block
 ```
 
 21. What is the response status code?
-    --- HTTP/1.1 200 OK
+    - HTTP/1.1 200 OK
 
 22. What web server is handling this HTTP response?
-    --- Apache webserver
+    - Apache webserver
 
 23. Does this response have a user session associated to it?
-    --- Yes, SessionID=5
+    - Yes, SessionID=5
 
 24. What kind of content is likely to be in the [page content] response body?
-    --- Details of html page configuration
+    - Details of html page configuration
 
 25. If your class covered security headers, what security request headers have been included?
-    --- Strict-Transport-Security header  (max-age=31536000; includeSubDomains)
+    - Strict-Transport-Security header  (max-age=31536000; includeSubDomains)
 
 #### Monoliths and Microservices
 
 Answer the following questions about monoliths and microservices:
 
 26. What are the individual components of microservices called?
-    --- Services
+    - Services
 
 27. What is a service that writes to a database and communicates to other services?
-    --- API: Application Programming Interface
+    - API: Application Programming Interface
 
 28. What type of underlying technology allows for microservices to become scalable and have redundancy?
-    --- Load Balancer Technology, along with Containers allow microservices to be scalable and redundant.
+    - Load Balancer Technology, along with Containers allow microservices to be scalable and redundant.
 
 #### Deploying and Testing a Container Set
 
 Answer the following questions about multi-container deployment:
 
 29. What tool can be used to deploy multiple containers at once?
-    --- Docker
+    - Docker
 
 30. What kind of file format is required for us to deploy a container set?
-    --- YAML format (.yml)
+    - YAML format (.yml)
 
 #### Databases
 
 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
-    --- SELECT * FROM Customers WHERE Last_Name='Oraegbu';
+    - SELECT * FROM Customers WHERE Last_Name='Oraegbu';
 
 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
-    --- INSERT INTO Customers (field1, field 2, ...) VALUES ('a', 'b', ...);
+    - INSERT INTO Customers (field1, field 2, ...) VALUES ('a', 'b', ...);
 
 33. Why would we never run `DELETE FROM <table-name>;` by itself?
-    --- The entire table will be deleted since there is no select statement
+    - The entire table will be deleted since there is no select statement
 
 ---
 
