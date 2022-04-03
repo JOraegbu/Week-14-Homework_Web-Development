@@ -355,6 +355,8 @@ For these "baselining" steps, you'll want to log into two different types of acc
 - ![image](https://user-images.githubusercontent.com/102389320/161452740-472eaf42-7b9e-4daa-8837-0f3ea5684121.png)
 
 3. Attempt to navigate to `localhost:8080/wp-admin/users.php`. Note what you see now.
+- ![image](https://user-images.githubusercontent.com/102389320/161452777-f84108b0-f625-40a7-8d2f-81d21711a53b.png)
+
 
 Log out in the browser.
 
