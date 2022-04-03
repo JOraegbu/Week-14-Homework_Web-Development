@@ -316,7 +316,7 @@ Create two new users: Amanda and Ryan.
 
     - Username: `Amanda`
     - Email: `amanda@email.com`
-    - /home/sysadmin/Documents/Cybersecurity_2022/Automated-ELK-Stack-Deployment/Homework 14/Images
+    - 
 
 4. Skip down to password:
 
