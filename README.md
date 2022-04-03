@@ -316,7 +316,8 @@ Create two new users: Amanda and Ryan.
 
     - Username: `Amanda`
     - Email: `amanda@email.com`
-    - 
+    - ![image](https://user-images.githubusercontent.com/102389320/161452138-4cce19df-b1f3-4fc1-992c-7f54cd672016.png)
+
 
 4. Skip down to password:
 
