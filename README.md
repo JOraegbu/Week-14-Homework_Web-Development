@@ -316,6 +316,7 @@ Create two new users: Amanda and Ryan.
 
     - Username: `Amanda`
     - Email: `amanda@email.com`
+    - 
 
 4. Skip down to password:
 
