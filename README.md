@@ -375,7 +375,10 @@ Navigate to `~/Documents` in a terminal to save your cookies.
 
 2. Construct the same `curl` request, but this time add the option and path to save your cookie: `--cookie-jar ./ryancookies.txt`. This option tells `curl` to save the cookies to the `ryancookies.txt` text file.
 
+- curl -L -D ryan_cookie.txt -d "log=Ryan&pwd=123456&ryan_cookie=1&rememberme=forever" --cookie-jar ./ryancookies.txt http://localhost:8080/wp-login.php
+
 3. Read the contents of the `ryancookies.txt` file.
+- 
 
    - **Question:** How many items exist in this file?
 
