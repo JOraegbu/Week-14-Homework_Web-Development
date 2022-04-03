@@ -401,12 +401,17 @@ Note that each one of these is a cookie that was granted to Ryan after logging i
 
     - **Question:**  Look through the output where `Dashboard` is highlighted. Does any of the wording on this page seem familiar? (Y/N) If so, you should be successfully logged in to your Editor's dashboard.
     - 
+    - ![image](https://user-images.githubusercontent.com/102389320/161453792-97505420-2549-4034-bf73-542c019e7d5c.png)
+
 
 #### Step 5: Test the Users.php Page
 
 1. Finally, write a `curl` command using the same `--cookie ryancookies.txt` option, but attempt to access `http://localhost:8080/wp-admin/users.php`.
 
+- curl -L --cookie ./ryancookies.txt http://localhost:8080/wp-admin/index.php | grep Dashboard
+
     - **Question:** What happens this time?
+    - It shows the same as sysadmin's Dashboard
 
 ---
 
