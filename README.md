@@ -21,61 +21,61 @@ Answer the following questions about the HTTP request and response process.
      - Client/Server Architecture
 
 2. What are the different parts of an HTTP request? 
-    -- Request Line
-       Request Headers
-       Request Body
+    - Request Line
+    - Request Headers
+    - Request Body
 
 3. Which part of an HTTP request is optional?
-    -- Request Body
+    - Request Body
 
 4. What are the three parts of an HTTP response?
-    -- Response Status Code
-       Response Headers
-       Response Body
+    - Response Status Code
+    -  Response Headers
+    -  Response Body
 
 5. Which number class of status codes represents errors?
-    -- 400 Codes:- signifies Client errors
-       500 Codes:- signifies Server errors
+    - 400 Codes:- signifies Client errors
+    -  500 Codes:- signifies Server errors
 
 6. What are the two most common request methods that a security professional will encounter?
-    -- POST and GET requests
+    - POST and GET requests
 
 7. Which type of HTTP request method is used for sending data?
-    -- POST request
+    - POST request
 
 8. Which part of an HTTP request contains the data being sent to the server?
-    -- Request Body
+    - Request Body
 
 9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
-    -- Response Body
+    - Response Body
 
 #### Using curl
 
 Answer the following questions about `curl`:
 
 10. What are the advantages of using `curl` over the browser?
-    -- Ability to support numerous protocols with user interface present or not.
-       Curl's ability to manage HTTP Requests/Responses in a repeatable and programmatic ways.
-       Ability to make adjustments on the fly as security professionals work.
-       Allows security professionals to test web server security configurations.
-       Ability to test HTTP Requests in a way that can be automated. 
-       Allows security professionals to ensure web servers don't leak sensitive data through their HTTP responses.
-       Allows security professionals to verify that servers only respond to certain types of requests.
-       Allows security professionals to look for vulnerabilities on a web server.
+    - Ability to support numerous protocols with user interface present or not.
+    - Curl's ability to manage HTTP Requests/Responses in a repeatable and programmatic ways.
+    - Ability to make adjustments on the fly as security professionals work.
+    - Allows security professionals to test web server security configurations.
+    - Ability to test HTTP Requests in a way that can be automated. 
+    - Allows security professionals to ensure web servers don't leak sensitive data through their HTTP responses.
+    - Allows security professionals to verify that servers only respond to certain types of requests.
+    - Allows security professionals to look for vulnerabilities on a web server.
 
 
 11. Which `curl` option is used to change the request method?
-    -- -X, --request
+    - -X, --request
 
 12. Which `curl` option is used to set request headers?
-    -- -H, --header
+    - -H, --header
 
 13. Which `curl` option is used to view the response header?
-    -- -I, --include
+    - -I, --include
 
 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
-    -- Get request because an attacker will need this to figure out which HTTP requests a web server will accept.
-    -- Options request will enable the attacker to figure out other communications options for the target web server.
+    - Get request because an attacker will need this to figure out which HTTP requests a web server will accept.
+    - Options request will enable the attacker to figure out other communications options for the target web server.
 
 #### Sessions and Cookies
 
@@ -90,11 +90,11 @@ Answer the following questions about sessions and cookies:
     Content-type: text/html
     Set-Cookie: cart=Bob
     ```
-    Answer:
-    -- Set-Cookies:
-       HTTP/1.1 200 OK
-       Content-type: text/html
-       Set-Cookie: cart=Bob
+    # Answer:
+    - Set-Cookies:
+    - HTTP/1.1 200 OK
+    - Content-type: text/html
+    - Set-Cookie: cart=Bob
        
 
 16. Which request header will continue the client's session?
