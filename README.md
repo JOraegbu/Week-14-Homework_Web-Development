@@ -352,6 +352,7 @@ For these "baselining" steps, you'll want to log into two different types of acc
 - ![image](https://user-images.githubusercontent.com/102389320/161452687-7f372659-5a94-4efd-bb89-7b015b6814d1.png)
 
 2. Using your browser, log into your Ryan account and attempt to navigate to `localhost:8080/wp-admin/index.php`. Note the wording on your Dashboard.
+- ![image](https://user-images.githubusercontent.com/102389320/161452740-472eaf42-7b9e-4daa-8837-0f3ea5684121.png)
 
 3. Attempt to navigate to `localhost:8080/wp-admin/users.php`. Note what you see now.
 
